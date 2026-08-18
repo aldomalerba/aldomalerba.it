@@ -33,9 +33,9 @@ export type ContactLink = {
 export const site = {
   name: 'Aldo Malerba',
   url: 'https://aldomalerba.it',
-  role: 'Sviluppatore software · Applicazioni web · Full stack',
+  role: 'Software engineer per prodotti digitali in crescita',
   description:
-    'Aldo Malerba, sviluppatore software a Brescia con 8 anni di esperienza. TypeScript, NestJS, React, AWS e Kotlin con TDD ed Extreme Programming. Uso l’AI per accelerare lo sviluppo senza rinunciare alla qualità. Applicazioni web, backend e software su misura.',
+    'Aldo Malerba aiuta aziende e team di prodotto a costruire e far evolvere applicazioni web e backend mantenibili, trasformando esigenze concrete in software affidabile. TypeScript, NestJS, React, AWS e Kotlin con TDD ed Extreme Programming.',
   locale: 'it_IT',
   cv: '/cv_malerba_aldo.pdf',
 }
@@ -52,9 +52,9 @@ export const nav: NavLink[] = [
 export const hero = {
   eyebrow: 'whoami',
   title: 'Aldo Malerba',
-  tagline: 'Sviluppatore software · Applicazioni web · Full stack',
+  tagline: 'Software engineer per prodotti digitali in crescita',
   intro:
-    'Da 8 anni costruisco software; da circa 5 in modo Agile, con Test-Driven Development e le pratiche dell’Extreme Programming. Uso l’AI per accelerare molto lo sviluppo, senza mai rinunciare alla qualità del codice. Posso aiutarti a sviluppare applicazioni web, backend e software su misura, dall’idea al deploy.',
+    'Aiuto aziende e team di prodotto a costruire e far evolvere applicazioni web e backend mantenibili, trasformando esigenze concrete in software affidabile. Lavoro direttamente con il team, dall’idea al deploy, con un approccio iterativo e attento alla qualità del codice.',
   /** blocco "identity" mostrato nell'hero come snippet di codice */
   code: {
     filename: 'aldo.ts',
@@ -74,7 +74,7 @@ export const hero = {
 export const about = {
   title: 'Chi sono',
   paragraphs: [
-    'Sono uno sviluppatore software con 8 anni di esperienza, con base a Brescia. Lavoro su tutto lo stack, dal frontend al backend: mi interessa costruire sistemi che restino solidi e comprensibili man mano che crescono.',
+    'Sono uno sviluppatore software con 8 anni di esperienza, con base a Brescia. Aiuto aziende e team di prodotto a trasformare esigenze concrete in prodotti e servizi software affidabili, contribuendo sia alla costruzione iniziale sia all’evoluzione di sistemi esistenti.',
     'Da circa cinque anni ho fatto mie le pratiche dell’Extreme Programming (Test-Driven Development, pair programming, refactoring continuo) e più di recente il Domain-Driven Design. Credo nel codice pulito, ben testato e scritto pensando a chi lo leggerà dopo.',
     'L’AI è parte integrante del mio flusso di lavoro. Uso Claude e strumenti come i server MCP per accelerare molto lo sviluppo. Resta però uno strumento: architettura, test e qualità del codice restano decisioni mie. So costruire software solido a prescindere; l’AI mi fa arrivare allo stesso risultato più velocemente.',
   ],
@@ -114,7 +114,7 @@ export const experiences: Experience[] = [
 export const services = {
   title: 'Come posso aiutarti',
   intro:
-    'Lavoro su tutta la filiera: frontend, applicazioni web, backend e API. Che ti serva una presenza online essenziale o un’applicazione completa, me ne occupo dall’inizio alla fine, con la stessa cura per la qualità e, grazie all’AI, in tempi più rapidi.',
+    'Intervengo quando serve costruire o far evolvere un prodotto digitale: frontend, applicazioni web, backend e API. Partiamo dalle esigenze del prodotto e arriviamo a una soluzione mantenibile, senza separare il lavoro tecnico dagli obiettivi di business.',
   items: [
     {
       title: 'Applicazioni web',
@@ -156,7 +156,7 @@ export const skills = {
 export const process = {
   eyebrow: 'come lavoro',
   title: 'Semplice, senza sorprese',
-  lead: 'Niente agenzia: lavori direttamente con uno sviluppatore senior. Veloce grazie all’AI, solido grazie al metodo.',
+  lead: 'Lavori direttamente con uno sviluppatore software: obiettivi chiari, iterazioni brevi e decisioni tecniche comprensibili anche dal lato prodotto, dalla prima versione all’evoluzione del sistema.',
   steps: [
     {
       n: '01',
