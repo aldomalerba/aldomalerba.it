@@ -33,7 +33,7 @@ export type ContactLink = {
 export const site = {
   name: 'Aldo Malerba',
   url: 'https://aldomalerba.it',
-  role: 'Software engineer per prodotti digitali in crescita',
+  role: 'Software Developer per prodotti digitali affidabili e in crescita',
   description:
     'Aldo Malerba aiuta aziende e team di prodotto a costruire e far evolvere applicazioni web e backend mantenibili, trasformando esigenze concrete in software affidabile. TypeScript, NestJS, React, AWS e Kotlin con TDD ed Extreme Programming.',
   locale: 'it_IT',
@@ -52,7 +52,7 @@ export const nav: NavLink[] = [
 export const hero = {
   eyebrow: 'whoami',
   title: 'Aldo Malerba',
-  tagline: 'Software engineer per prodotti digitali in crescita',
+  tagline: 'Software Developer per prodotti digitali affidabili e in crescita',
   intro:
     'Aiuto aziende e team di prodotto a costruire e far evolvere applicazioni web e backend mantenibili, trasformando esigenze concrete in software affidabile. Lavoro direttamente con il team, dall’idea al deploy, con un approccio iterativo e attento alla qualità del codice.',
   /** blocco "identity" mostrato nell'hero come snippet di codice */

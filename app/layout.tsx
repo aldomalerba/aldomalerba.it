@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} · Sviluppatore software`,
+    default: `${site.name} · ${site.role}`,
     template: `%s · ${site.name}`,
   },
   description: site.description,
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     type: 'website',
     locale: site.locale,
     url: site.url,
-    title: `${site.name} · Sviluppatore software`,
+    title: `${site.name} · ${site.role}`,
     description: site.description,
     siteName: site.name,
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${site.name} · Sviluppatore software`,
+    title: `${site.name} · ${site.role}`,
     description: site.description,
   },
 }
