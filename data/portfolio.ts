@@ -76,7 +76,7 @@ export const about = {
   paragraphs: [
     'Sono uno sviluppatore software con 8 anni di esperienza, con base a Brescia. Aiuto aziende e team di prodotto a trasformare esigenze concrete in prodotti e servizi software affidabili, contribuendo sia alla costruzione iniziale sia all’evoluzione di sistemi esistenti.',
     'Da circa cinque anni ho fatto mie le pratiche dell’Extreme Programming (Test-Driven Development, pair programming, refactoring continuo) e più di recente il Domain-Driven Design. Credo nel codice pulito, ben testato e scritto pensando a chi lo leggerà dopo.',
-    'L’AI è parte integrante del mio flusso di lavoro. Uso Claude e strumenti come i server MCP per accelerare molto lo sviluppo. Resta però uno strumento: architettura, test e qualità del codice restano decisioni mie. So costruire software solido a prescindere; l’AI mi fa arrivare allo stesso risultato più velocemente.',
+    'Uso l’AI come supporto nel flusso di lavoro: mi aiuta a esplorare alternative, preparare il lavoro e verificare alcune ipotesi. Resta però uno strumento: architettura, test e qualità del codice restano decisioni mie.',
   ],
 }
 
@@ -89,7 +89,7 @@ export const experiences: Experience[] = [
       'In una startup, in un team di 2-3 sviluppatori a diretto contatto con il business.',
       'Approfondimento di Domain-Driven Design, NestJS e React.',
       'Sviluppo di un server MCP (Model Context Protocol) in NestJS.',
-      'Sviluppo assistito da AI (Claude) integrato nel flusso di lavoro quotidiano.',
+      'Sviluppo assistito da AI integrato nel flusso di lavoro quotidiano.',
     ],
   },
   {
@@ -129,7 +129,7 @@ export const services = {
     {
       title: 'Software su misura',
       description:
-        'Dall’idea al deploy. Con l’AI e le pratiche XP consegno più in fretta, senza scendere a compromessi sulla qualità del codice.',
+        'Dall’idea al deploy, con pratiche XP e attenzione alla qualità del codice lungo tutto il percorso.',
     },
   ] as Service[],
   // TODO: se vuoi, aggiungi qui prezzi/pacchetti o una riga di call-to-action dedicata.
@@ -148,7 +148,7 @@ export const skills = {
     },
     {
       title: 'AI tooling',
-      items: ['Claude', 'Server MCP', 'Sviluppo assistito da AI'],
+      items: ['Uso consapevole dell’AI', 'Server MCP', 'Sviluppo assistito da AI'],
     },
   ] as SkillGroup[],
 }
@@ -168,7 +168,7 @@ export const process = {
       n: '02',
       title: 'Vedi presto i risultati',
       description:
-        'Grazie all’AI e alle pratiche XP ti mostro presto qualcosa di funzionante, non dopo mesi al buio.',
+        'Con iterazioni brevi e pratiche XP ti mostro presto qualcosa di funzionante, non dopo mesi al buio.',
     },
     {
       n: '03',
