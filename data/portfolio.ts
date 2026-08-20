@@ -83,13 +83,15 @@ export const about = {
 export const experiences: Experience[] = [
   {
     period: '2025 - oggi',
-    role: 'Sviluppatore software',
+    role: 'Software Engineer',
     company: 'viteSicure',
     points: [
-      'In una startup, in un team di 2-3 sviluppatori a diretto contatto con il business.',
-      'Approfondimento di Domain-Driven Design, NestJS e React.',
-      'Sviluppo di un server MCP (Model Context Protocol) in NestJS.',
-      'Sviluppo assistito da AI integrato nel flusso di lavoro quotidiano.',
+      'Lavoro in un team di 2-3 sviluppatori a stretto contatto con il business, contribuendo all’evoluzione di una piattaforma assicurativa multi-brand con ownership verticale, dal dominio backend ai funnel React.',
+      'Collaboro direttamente con i founder per tradurre iniziative di business in roadmap tecniche, pianificando e prioritizzando il lavoro del team con approccio agile.',
+      'Ho migrato un prodotto live da un backend legacy a una nuova architettura basata su Domain-Driven Design, con un approccio strangler-fig, introducendo bounded context senza interruzioni di servizio.',
+      'Integro API di partner assicurativi e trasformo regole di business, questionari medici e vincoli di compliance in una user journey che ha priorità sulla buona esperienza per l'utente.',
+      'Espongo API sicure per client esterni con autenticazione OAuth machine-to-machine e integro CRM, email transazionale e identity verification biometrica tramite webhook.',
+      'Gestisco rilasci incrementali con feature flag, A/B testing tramite GrowthBook e pipeline CI/CD basate sul principio build once, deploy many; ho inoltre sviluppato un server MCP in NestJS per esporre il motore di consulenza ad agenti AI.',
     ],
   },
   {
