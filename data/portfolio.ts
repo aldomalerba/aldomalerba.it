@@ -50,11 +50,11 @@ export const nav: NavLink[] = [
 ]
 
 export const hero = {
-  eyebrow: 'whoami',
-  title: 'Aldo Malerba',
-  tagline: 'Software Developer per prodotti digitali affidabili e in crescita',
+  eyebrow: 'Aldo Malerba · software engineer',
+  title: 'Software affidabile per prodotti digitali in crescita.',
+  tagline: 'Trasformo esigenze concrete in applicazioni web e backend mantenibili.',
   intro:
-    'Aiuto aziende e team di prodotto a costruire e far evolvere applicazioni web e backend mantenibili, trasformando esigenze concrete in software affidabile. Lavoro direttamente con il team, dall’idea al deploy, con un approccio iterativo e attento alla qualità del codice.',
+    'Lavoro con aziende e team di prodotto per costruire nuove soluzioni o far evolvere sistemi esistenti. Dall’idea al deploy, collaboro direttamente con il team e tengo al centro qualità del codice, iterazioni brevi e decisioni comprensibili.',
   /** blocco "identity" mostrato nell'hero come snippet di codice */
   code: {
     filename: 'aldo.ts',
@@ -68,7 +68,6 @@ export const hero = {
     stack: ['TypeScript', 'NestJS', 'React', 'AWS', 'Kotlin'],
   },
   primaryCta: { label: 'Raccontami il progetto', href: '#contatti' },
-  secondaryCta: { label: 'Come lavoro', href: '#come-lavoro' },
 }
 
 export const about = {
