@@ -116,25 +116,24 @@ export const experiences: Experience[] = [
 export const services = {
   title: 'Come posso aiutarti',
   intro:
-    'Intervengo quando serve costruire o far evolvere un prodotto digitale: frontend, applicazioni web, backend e API. Partiamo dalle esigenze del prodotto e arriviamo a una soluzione mantenibile, senza separare il lavoro tecnico dagli obiettivi di business.',
+    'Collaboro con aziende e team di prodotto in tre situazioni concrete: far evolvere un prodotto esistente, costruire un backend o un’API, oppure sviluppare una prima versione web. Definiamo insieme obiettivi e confini prima di iniziare.',
   items: [
     {
-      title: 'Applicazioni web',
+      title: 'Evoluzione di prodotti esistenti',
       description:
-        'Un’applicazione web curata e veloce, chiavi in mano: mi occupo io di dominio, hosting e messa online, e le modifiche nel tempo sono comprese. Tu pensi al tuo lavoro.',
+        'Analisi e sviluppo incrementale di nuove funzionalità, correzioni e refactoring per applicazioni web già in uso. Il lavoro parte da un perimetro concordato e non include assistenza continuativa senza un accordo dedicato.',
     },
     {
       title: 'Backend & API',
       description:
-        'Servizi backend solidi e testati, su AWS, progettati per restare chiari e manutenibili mentre il progetto cresce.',
+        'Progettazione e sviluppo di servizi backend e API chiari, testati e pronti a crescere. L’infrastruttura cloud e la gestione operativa restano da definire caso per caso: non offro hosting o reperibilità inclusi.',
     },
     {
-      title: 'Software su misura',
+      title: 'Prima versione web',
       description:
-        'Dall’idea al deploy, con pratiche XP e attenzione alla qualità del codice lungo tutto il percorso.',
+        'Sviluppo di una prima versione focalizzata, dall’idea a un prodotto web utilizzabile, con iterazioni brevi e pratiche XP. Sono fuori scope applicazioni AI complesse, funzionalità illimitate e modifiche non concordate.',
     },
   ] as Service[],
-  // TODO: se vuoi, aggiungi qui prezzi/pacchetti o una riga di call-to-action dedicata.
 }
 
 export const skills = {
