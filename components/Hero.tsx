@@ -28,12 +28,6 @@ export default function Hero() {
           >
             {hero.primaryCta.label}
           </a>
-          <a
-            href={hero.secondaryCta.href}
-            className="rounded-md border border-hairline px-5 py-2.5 text-sm font-semibold text-navy transition hover:border-navy"
-          >
-            {hero.secondaryCta.label}
-          </a>
         </div>
       </div>
     </section>
